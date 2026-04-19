@@ -1,4 +1,4 @@
-name=js/script.js url=https://github.com/Monika-Sihag/guru-mandir-website/blob/main/js/script.js
+// name=js/script.js url=https://github.com/Monika-Sihag/guru-mandir-website/blob/main/js/script.js
 // ========== IMAGE SLIDER FUNCTIONALITY ==========
 let slideIndex = 1;
 let slideInterval;

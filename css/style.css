@@ -214,7 +214,7 @@ body {
     flex-shrink: 0;
 }
 
-.overlay-content {
+/* .overlay-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -223,13 +223,22 @@ body {
     background: transparent;
     padding: 2.5rem;
     border-radius: 15px;
+} */
+.overlay-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: transparent;
+    padding: 2.5rem;
+    border-radius: 15px;
 }
-
 .slider-overlay h2 {
     font-size: 3.5rem;
     font-weight: 900;
     margin: 0;
-    text-shadow: 4px 4px 16px rgba(0, 0, 0, 1);
+    text-shadow: 4px 4px 16px rgba(0, 0, 1);
     color: var(--primary-yellow);
     letter-spacing: 2px;
     line-height: 1.3;
